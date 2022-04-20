@@ -1,5 +1,5 @@
 import numpy as np
-from Grassmannian2 import*
+from Grassmannian import*
 from SpinorBrackets3pt import*
 from itertools import product
 from numpy import sqrt
