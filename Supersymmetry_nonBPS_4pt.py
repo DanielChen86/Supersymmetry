@@ -7,7 +7,7 @@ from numpy import sqrt
 '---------------------- Central charges ----------------------'
 
 
-FL12=0.2
+FL12=0.1
 FL34=0.1
 FR12=0.1
 FR34=0.1
