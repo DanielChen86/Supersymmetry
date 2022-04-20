@@ -135,7 +135,7 @@ def fac(n):
 
 
 power_exp=4
-print ('the order of exponentiation is',power_exp)
+print ('The order of exponentiation is',power_exp)
 def EXPft(x,power_max=power_exp):
     temp_power=0
     result=POWERft(x,temp_power)
