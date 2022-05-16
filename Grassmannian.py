@@ -48,7 +48,7 @@ validity=1e-10
 
 
 
-with open('grassmannian.dict/L4N4-FL3N2.yaml', 'r') as f:
+with open('grassmannian-dict/L4N8-FL4N4.yaml', 'r') as f:
     itos = yaml.safe_load(f)
 
 

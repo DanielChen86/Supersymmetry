@@ -1,0 +1,9 @@
+Supersymmetry_nonBPS_3pt.py: grassmannian-dict/L4N4.yaml
+Supersymmetry_nonBPS_4pt.py: grassmannian-dict/L4N4.yaml
+Supersymmetry_nonBPS_3pt_right.py: grassmannian-dict/L4N4.yaml
+Supersymmetry_BPS_3pt.py: grassmannian-dict/L4N4.yaml
+Supersymmetry_3pt_BPS_nonBPS.py: grassmannian-dict/L4N4.yaml
+QaQb.py: grassmannian-dict/L4N4.yaml
+Supersymmetry_nonBPS_3pt_N8.py: grassmannian-dict/L3N8.yaml
+FourierTransformation.py: grassmannian-dict/L4N4-FL3N2.yaml
+Supersymmetry_nonBPS_3pt_fourier.py: grassmannian-dict/L4N4-FL3N2.yaml
