@@ -49,7 +49,7 @@ factorizedf[2][2]=FZ*deltaf[2]*Haf[2]*Hbf[2]+deltaf[2]*etaPf[2]*Hbf[2]+GZ*deltaf
 
 if __name__=='__main__':
     print ('FZ = {}\nGZ = {}'.format(FZ, GZ))
-    print ( (factorized[1][1]*factorized[1][2]-solution[1]).vanish() )
-    print ( ((-x12)*factorized[2][1]*factorized[2][2]-solution[2]).vanish() )
+    print ( (factorized[1][1]*factorized[1][2]-solution[1]).vanish(1e-8) )
+    print ( ((-x12)*factorized[2][1]*factorized[2][2]-solution[2]).vanish(1e-8) )
     print ( (etaPf_Mul(factorizedf[1][2])-FT1to2(etaP_Mul(factorized[1][1]))).vanish(1e-8) )
     print ( (etaPf_Mul(factorizedf[1][1],-sqrt(2))-FT2to1(etaP_Mul(factorized[1][2]))).vanish(1e-8) )
